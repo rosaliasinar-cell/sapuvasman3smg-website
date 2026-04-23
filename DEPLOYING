@@ -1,0 +1,22 @@
+
+---
+
+### **🔟 DEPLOYMENT.md** - Panduan Deploy
+
+```markdown name=DEPLOYMENT.md
+# Panduan Deployment SAPUVA
+
+## Deploy ke Vercel (Recommended)
+
+### 1. Sign Up Vercel
+Daftar di https://vercel.com
+
+### 2. Connect GitHub Repository
+- Klik "Import Project"
+- Pilih repository `sapuva-website`
+- Vercel akan otomatis detect sebagai static site
+
+### 3. Configure & Deploy
+```bash
+vercel
+# Follow on-screen instructions
