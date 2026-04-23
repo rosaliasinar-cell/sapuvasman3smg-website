@@ -1,0 +1,28 @@
+{
+  "buildCommand": "echo 'Static site - no build needed'",
+  "framework": null,
+  "public": true,
+  "github": {
+    "enabled": true,
+    "autoAlias": true
+  },
+  "regions": ["sin1"],
+  "env": [],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
