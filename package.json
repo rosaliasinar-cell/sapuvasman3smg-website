@@ -1,0 +1,27 @@
+{
+  "name": "sapuva-website",
+  "version": "2.0.0",
+  "description": "SAPUVA - Sapu-Sapu Utopia Virtual Advisor for Interactive Web-Based Marine Education, Preservation and Action",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server",
+    "build": "echo 'No build required for static site'",
+    "deploy": "echo 'Deploy to Vercel using web UI'"
+  },
+  "keywords": [
+    "education",
+    "environment",
+    "invasive-species",
+    "interactive-learning",
+    "game-based-learning",
+    "indonesia",
+    "aquatic-ecosystem"
+  ],
+  "author": "SAPUVANIAN TEAM 2026",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rosaliasinar-cell/sapuva-website.git"
+  },
+  "homepage": "https://sapuvasman3smg-website.vercel.app"
+}
